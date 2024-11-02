@@ -21,6 +21,8 @@ body {
 header {
   padding: 10px 0;
   border-bottom: 1px solid #262626;
+  position: sticky;
+  top: 0;
 }
 header nav ul {
   list-style: none;
@@ -86,12 +88,10 @@ header nav button {
   margin-left: 20px;
 }
 .numbers_and_percentages .another_two_things div {
-  border-bottom: 1px solid;
-  border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 1;
+  border-bottom: 1px solid #ADA785;
 }
 .numbers_and_percentages .two_main_things div {
-  border-bottom: 1px solid;
-  border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 1;
+  border-bottom: 1px solid #ADA785;
 }
 .numbers_and_percentages h1 {
   font-size: 55px;
@@ -389,8 +389,7 @@ header nav button {
   display: flex;
   align-items: center;
   width: 180px;
-  border-bottom: 1px solid;
-  border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 2;
+  border-bottom: 1px solid #ADA785;
 }
 .section_about_interests .fees_with_percentage h1 {
   font-size: 58px;
@@ -421,8 +420,7 @@ header nav button {
   display: flex;
   align-items: center;
   width: 400px;
-  border-bottom: 1px solid;
-  border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 2;
+  border-bottom: 1px solid #ADA785;
 }
 .section_about_interests .unlimited_fees .percent_with_cashback h1 {
   font-size: 58px;
@@ -466,8 +464,7 @@ header nav button {
   display: flex;
   align-items: center;
   width: 180px;
-  border-bottom: 1px solid;
-  border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 2;
+  border-bottom: 1px solid #ADA785;
 }
 .about_security .fees_with_percentage h1 {
   font-size: 58px;
@@ -499,8 +496,7 @@ header nav button {
   display: flex;
   align-items: center;
   width: 400px;
-  border-bottom: 1px solid;
-  border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 1;
+  border-bottom: 1px solid #ADA785;
 }
 .about_security .unlimited_fees .percent_with_cashback h4 {
   font-size: 16px;
@@ -547,8 +543,7 @@ header nav button {
   align-items: center;
   justify-content: space-between;
   width: 180px;
-  border-bottom: 1px solid;
-  border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 1;
+  border-bottom: 1px solid #ADA785;
 }
 
 .how_to_download {
@@ -608,8 +603,7 @@ header nav button {
 }
 .moneu_with_no_interest .using_another_cards .btn_of_articles .main_box {
   width: 310px;
-  border: 1px solid;
-  border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 25%, #262626 100%) 1;
+  border: 1px solid #ADA785;
 }
 .moneu_with_no_interest .using_another_cards .btn_of_articles button {
   width: 260px;
@@ -694,10 +688,12 @@ footer .about_all h3 {
   font-size: 16px;
   color: #E5E5E5;
 }
-footer .about_all p {
+footer .about_all ul li {
+  margin-top: 10px;
+}
+footer .about_all ul li a {
   font-size: 16px;
   color: #999999;
-  margin-top: 10px;
 }
 footer .about_all button {
   width: 180px;

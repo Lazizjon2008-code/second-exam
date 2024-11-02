@@ -21,6 +21,8 @@ body {
 header {
     padding: 10px 0;
     border-bottom: 1px solid #262626;
+    position: sticky;
+    top: 0;
 
     nav {
 
@@ -97,16 +99,14 @@ header {
         margin-left: 20px;
 
         div {
-            border-bottom: 1px solid;
-            border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 1;
+            border-bottom: 1px solid #ADA785;
         }
     }
 
     .two_main_things {
 
         div {
-            border-bottom: 1px solid;
-            border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 1;
+            border-bottom: 1px solid #ADA785;
         }
     }
 
@@ -464,8 +464,7 @@ header {
             display: flex;
             align-items: center;
             width: 180px;
-            border-bottom: 1px solid;
-            border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 2;
+            border-bottom: 1px solid #ADA785;
         }
 
         h1 {
@@ -502,8 +501,7 @@ header {
             display: flex;
             align-items: center;
             width: 400px;
-            border-bottom: 1px solid;
-            border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 2;
+            border-bottom: 1px solid #ADA785;
 
             h1 {
                 font-size: 58px;
@@ -559,8 +557,7 @@ header {
             display: flex;
             align-items: center;
             width: 180px;
-            border-bottom: 1px solid;
-            border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 2;
+            border-bottom: 1px solid #ADA785;
         }
 
         h1 {
@@ -598,8 +595,7 @@ header {
             display: flex;
             align-items: center;
             width: 400px;
-            border-bottom: 1px solid;
-            border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 1;
+            border-bottom: 1px solid #ADA785;
     
             h4 {
                 font-size: 16px;
@@ -661,8 +657,7 @@ header {
             align-items: center;
             justify-content: space-between;
             width: 180px;
-            border-bottom: 1px solid;
-            border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 87.01%, #262626 100%) 1;
+            border-bottom: 1px solid #ADA785;
         }
     }
 }
@@ -732,8 +727,7 @@ header {
 
             .main_box {
                 width: 310px;
-                border: 1px solid;
-                border-image-source: linear-gradient(270deg, #262626 0%, #ADA785 25%, #262626 100%) 1;
+                border: 1px solid #ADA785;
             }
             
             button {
@@ -843,10 +837,15 @@ footer {
             color: #E5E5E5;
         }
 
-        p  {
-            font-size: 16px;
-            color: #999999;
-            margin-top: 10px;
+        ul {
+            li {
+                margin-top: 10px;
+
+                a  {
+                    font-size: 16px;
+                    color: #999999;
+                }
+            }
         }
 
         button {
