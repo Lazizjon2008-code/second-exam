@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+  }
+  
+  body {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: black;
+    color: white;
+  }
+
+header {
+    padding: 10px 0;
+    border-bottom: 1px solid #262626;
+    position: sticky;
+    top: 0;
+
+    nav {
+
+        ul {
+            list-style: none;
+    
+            a {
+                font-size: 14px;
+                color:#FFFFFF;
+                text-decoration: none;
+                transition: all 0.2s ease-in-out;
+            }
+
+            a:hover {
+                background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        button {
+            width: 155px;
+            height: 34px;
+            border: 1.62px solid;
+            border-image: linear-gradient(to right, #999999 100%, #141414 100%) 1;
+            padding-left: 18px;
+            border-radius: 60px;
+            backdrop-filter: blur(22.649999618530273px);
+            box-shadow: -2.62px -1.62px 4.24px 0px #FAFAFA38 inset;
+            border: none;
+            font-size: 14px;
+        }
+    }
+}
+
+.hero {
+    margin-top: 100px;
+
+    .monopay {
+
+        h1 {
+            font-size: 95px;
+            color: #E5E5E5;
+            
+            span {
+                color: #ADA785;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            color: #E5E5E5;
+            margin-top: 100px;
+        }
+
+        .downloads {
+            margin-top: 115px;
+
+            .growings {
+                border-bottom: 1px solid #ADA785;
+                width: 400px;
+                height: 98px;
+                margin-top: 40px;
+
+                h1 {
+                    font-size: 55px;
+                    background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+    
+                h4 {
+                    font-size: 16px;
+                    color: #E5E5E5;
+                }
+            }
+        }
+    }
+}
