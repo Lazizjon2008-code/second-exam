@@ -102,3 +102,314 @@ header {
         }
     }
 }
+
+.about_growing {
+    margin-top: -170px;
+
+    .histories {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 940px;
+
+        h2 {
+            font-size: 22.65px;
+            color: #E5E5E5;
+        }
+
+        p {
+            font-size: 16px;
+            color: #E5E5E5;
+            margin-top: 30px;
+        }
+    }
+}
+
+.about_companty {
+    margin-top: 150px;
+
+    .values_company {
+
+        h3 {
+            font-size: 22.65px;
+            color: #ADA785;
+        }
+
+        h1 {
+         font-size: 58px;
+         color: #E5E5E5;
+         
+         span {
+            color: #ADA785;
+            font-size: 60px;
+         }
+        }
+
+        p {
+            font-size: 16px;
+            color: #E5E5E5;
+            text-align: center;
+        }
+    }
+
+    .missions_and_visions {
+        width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 90px;
+
+        h2 {
+            font-size: 22.65px;
+            color: #E5E5E5;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #E5E5E5;
+            margin-top: 50px;
+        }
+    }
+}
+
+.section_founders {
+    margin-top: 150px;
+
+    .meetings {
+
+        h3 {
+            font-size: 22.65px;
+            color: #ADA785;
+        }
+
+        h1 {
+         font-size: 58px;
+         color: #E5E5E5;
+         
+         span {
+            color: #ADA785;
+            font-size: 60px;
+         }
+        }
+
+        p {
+            font-size: 16px;
+            color: #E5E5E5;
+            text-align: center;
+        }
+    }
+
+    .about_Smith {
+        width: 480px;
+        height: 500px;
+
+        h4 {
+            font-size: 22.65px;
+            color: #E5E5E5;
+        }
+
+        p {
+            font-size: 16px;
+            color: #E5E5E5;
+        }
+    }
+}
+
+.about_investors {
+    margin-top: 150px;
+
+    .section_border {
+        border-bottom: 1px solid #262626;
+        margin-top: 150px;
+    }
+
+    .sources {
+
+        h3 {
+            font-size: 22.65px;
+            color: #ADA785;
+        }
+
+        h1 {
+         font-size: 58px;
+         color: #E5E5E5;
+         
+         span {
+            color: #ADA785;
+            font-size: 60px;
+         }
+        }
+
+        p {
+            font-size: 16px;
+            color: #E5E5E5;
+            text-align: center;
+        }
+    }
+
+    .border_for_div {
+        border-bottom: 1px solid #262626;
+        width: 510px;
+        margin-top: 50px;
+    }
+
+    .how_much {
+        
+        .prices {
+
+            h2 {
+                font-size: 22.65px;
+                color: #E5E5E5;
+            }
+    
+            h4 {
+                font-size: 16px;
+                color: #999999;
+            }
+    
+            .left_box {
+                
+                div {
+                    border-left: 1px solid #ADA785;
+                    height: 140px;
+                }
+            }
+    
+            
+           .only_number {
+                width: 70px;
+                height: 70px;
+                border: 1.62px solid;
+                border-image: linear-gradient(to right, #999999 100%, #141414 100%) 1;
+                padding-left: 20px;
+                border-radius: 60px;
+                backdrop-filter: blur(22.649999618530273px);
+                box-shadow: -2.62px -1.62px 4.24px 0px #FAFAFA38 inset;
+                border: none;
+                display: flex;
+                flex-direction: column;
+    
+                h1 {
+                    font-size: 22.65px;
+                    background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    padding-top: 15px;
+                }
+            }
+    
+            button {
+                font-size: 16px;
+                color: #ADA785;
+            }
+        }
+    }
+
+
+    .mastercard_and_visa {
+        width: 510px;
+
+        .beetween_border {
+            border-bottom: 1px solid #ADA785;
+            margin-top: 70px;
+        }
+
+        h3 {
+            font-size: 22.65px;
+            color: #E5E5E5;
+        }
+
+        p {
+            font-size: 16px;
+            color: #E5E5E5;
+            margin-top: 25px;
+        }
+    }
+}
+
+
+footer {
+    margin-top: 100px;
+    padding-bottom: 50px;
+
+    .logos_with_btns {
+
+        .logos_for_foot {
+            width: 620px;
+            height: 175px;
+            padding-left: 10px;
+
+            p {
+                font-size: 14px;
+                color: #999999;
+                margin-top: 15px;
+            }
+        }
+
+        .btns_for_foot {
+            margin-top: 40px;
+
+            button {
+                width: 183px;
+                height: 60px;
+                border: 1.62px solid;
+                border-image: linear-gradient(to right, #999999 100%, #141414 100%) 1;
+                padding-left: 20px;
+                border-radius: 60px;
+                backdrop-filter: blur(22.649999618530273px);
+                box-shadow: -2.62px -1.62px 4.24px 0px #FAFAFA38 inset;
+                border: none;
+                font-size: 16px;
+                color: #ADA785;
+            }
+
+            .plus_another_box {
+                width: 620px;
+                border-bottom: 1px solid #262626;
+                margin-top: 30px;
+            }
+
+            p {
+                font-size: 16px;
+                color: #E5E5E5;
+                margin-top: 45px;
+            }
+        }
+    }
+    
+    .about_all {
+        width: 620px;
+        height: 450px;
+
+        h3 {
+            font-size: 16px;
+            color: #E5E5E5;
+        }
+
+        ul {
+            li {
+                margin-top: 10px;
+
+                a  {
+                    font-size: 16px;
+                    color: #999999;
+                }
+            }
+        }
+
+        button {
+            width: 180px;
+            height: 64px;
+            border: 1.62px solid;
+            border-image: linear-gradient(to right, #999999 100%, #141414 100%) 1;
+            padding-left: 20px;
+            border-radius: 60px;
+            backdrop-filter: blur(22.649999618530273px);
+            box-shadow: -2.62px -1.62px 4.24px 0px #FAFAFA38 inset;
+            border: none;
+            font-size: 12px;
+            color: #ADA785;
+            margin-top: 40px;
+        }
+    }
+}

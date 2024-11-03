@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: black;
+  color: white;
+}
+
+header {
+  padding: 10px 0;
+  border-bottom: 1px solid #262626;
+  position: sticky;
+  top: 0;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul a {
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+header nav ul a:hover {
+  background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header nav button {
+  width: 155px;
+  height: 34px;
+  border: 1.62px solid;
+  border-image: linear-gradient(to right, #999999 100%, #141414 100%) 1;
+  padding-left: 18px;
+  border-radius: 60px;
+  backdrop-filter: blur(22.6499996185px);
+  box-shadow: -2.62px -1.62px 4.24px 0px rgba(250, 250, 250, 0.2196078431) inset;
+  border: none;
+  font-size: 14px;
+}
+
+.main_blog {
+  margin-top: 100px;
+}
+.main_blog h1 {
+  font-size: 58px;
+  color: #E5E5E5;
+}
+.main_blog h1 span {
+  font-size: 60px;
+  color: #ADA785;
+}
+.main_blog p {
+  font-size: 16px;
+  color: #E5E5E5;
+}
+
+.how_using_money {
+  margin-top: 150px;
+}
+.how_using_money .about_cash {
+  display: grid;
+  width: 1280px;
+  grid-template-columns: repeat(3, 400px);
+  justify-content: space-between;
+}
+.how_using_money .about_cash .using_wallet {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+}
+.how_using_money .about_cash .using_wallet h5 {
+  font-size: 16px;
+  background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 25px;
+}
+.how_using_money .about_cash .using_wallet h2 {
+  font-size: 36.65px;
+  color: #E5E5E5;
+  margin-top: 10px;
+}
+.how_using_money .about_cash .using_wallet p {
+  font-size: 16px;
+  color: #CCCCCC;
+  margin-top: 20px;
+}
+.how_using_money .about_cash .using_wallet button {
+  font-size: 16px;
+  color: #ADA785;
+  margin-top: 15px;
+}
+.how_using_money .about_cash .using_app {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+}
+.how_using_money .about_cash .using_app h5 {
+  font-size: 16px;
+  background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 25px;
+}
+.how_using_money .about_cash .using_app h2 {
+  font-size: 36.65px;
+  color: #E5E5E5;
+  margin-top: 10px;
+}
+.how_using_money .about_cash .using_app p {
+  font-size: 16px;
+  color: #CCCCCC;
+  margin-top: 20px;
+}
+.how_using_money .about_cash .using_app button {
+  font-size: 16px;
+  color: #ADA785;
+  margin-top: 15px;
+}
+.how_using_money .about_cash .using_credit {
+  display: grid;
+  grid-column: 3;
+  grid-row: 1;
+}
+.how_using_money .about_cash .using_credit h5 {
+  font-size: 16px;
+  background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 25px;
+}
+.how_using_money .about_cash .using_credit h2 {
+  font-size: 36.65px;
+  color: #E5E5E5;
+  margin-top: 10px;
+}
+.how_using_money .about_cash .using_credit p {
+  font-size: 16px;
+  color: #CCCCCC;
+  margin-top: 20px;
+}
+.how_using_money .about_cash .using_credit button {
+  font-size: 16px;
+  color: #ADA785;
+  margin-top: 15px;
+}
+
+.about_cards {
+  margin-top: 150px;
+}
+.about_cards .monocards {
+  display: grid;
+  grid-template-columns: repeat(2, 620px);
+  width: 1280px;
+  justify-content: space-between;
+}
+.about_cards .monocards .type_of_ATM {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1px;
+}
+.about_cards .monocards .type_of_ATM h5 {
+  font-size: 16px;
+  background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 25px;
+}
+.about_cards .monocards .type_of_ATM h2 {
+  font-size: 36.65px;
+  color: #E5E5E5;
+  margin-top: 10px;
+}
+.about_cards .monocards .type_of_ATM p {
+  font-size: 16px;
+  color: #CCCCCC;
+  margin-top: 20px;
+}
+.about_cards .monocards .type_of_ATM button {
+  font-size: 16px;
+  color: #ADA785;
+  margin-top: 15px;
+}
+.about_cards .monocards .type_of_monopay {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+}
+.about_cards .monocards .type_of_monopay h5 {
+  font-size: 16px;
+  background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 25px;
+}
+.about_cards .monocards .type_of_monopay h2 {
+  font-size: 36.65px;
+  color: #E5E5E5;
+  margin-top: 10px;
+}
+.about_cards .monocards .type_of_monopay p {
+  font-size: 16px;
+  color: #CCCCCC;
+  margin-top: 20px;
+}
+.about_cards .monocards .type_of_monopay button {
+  font-size: 16px;
+  color: #ADA785;
+  margin-top: 15px;
+}
+
+.about_bank {
+  margin-top: 150px;
+}
+.about_bank .incomes {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  width: 1280px;
+  justify-content: space-between;
+}
+.about_bank .incomes .Monobank {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+}
+.about_bank .incomes .Monobank h5 {
+  font-size: 16px;
+  background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 20px;
+}
+.about_bank .incomes .Monobank h2 {
+  font-size: 36.65px;
+  color: #E5E5E5;
+  margin-top: 5px;
+}
+.about_bank .incomes .Monobank p {
+  font-size: 16px;
+  color: #CCCCCC;
+  margin-top: 15px;
+}
+.about_bank .incomes .Monobank button {
+  font-size: 16px;
+  color: #ADA785;
+  margin-top: 12px;
+}
+.about_bank .incomes .cashless {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+}
+.about_bank .incomes .cashless h5 {
+  font-size: 16px;
+  background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 20px;
+}
+.about_bank .incomes .cashless h2 {
+  font-size: 36.65px;
+  color: #E5E5E5;
+  margin-top: 5px;
+}
+.about_bank .incomes .cashless p {
+  font-size: 16px;
+  color: #CCCCCC;
+  margin-top: 15px;
+}
+.about_bank .incomes .cashless button {
+  font-size: 16px;
+  color: #ADA785;
+  margin-top: 12px;
+}
+.about_bank .incomes .managing_income {
+  display: grid;
+  grid-column: 3;
+  grid-row: 1;
+}
+.about_bank .incomes .managing_income h5 {
+  font-size: 16px;
+  background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 20px;
+}
+.about_bank .incomes .managing_income h2 {
+  font-size: 36.65px;
+  color: #E5E5E5;
+  margin-top: 5px;
+}
+.about_bank .incomes .managing_income p {
+  font-size: 16px;
+  color: #CCCCCC;
+  margin-top: 15px;
+}
+.about_bank .incomes .managing_income button {
+  font-size: 16px;
+  color: #ADA785;
+  margin-top: 12px;
+}
+.about_bank .border_for-last_section {
+  border-bottom: 1px solid #262626;
+  margin-top: 150px;
+}
+
+footer {
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+footer .logos_with_btns .logos_for_foot {
+  width: 620px;
+  height: 175px;
+  padding-left: 10px;
+}
+footer .logos_with_btns .logos_for_foot p {
+  font-size: 14px;
+  color: #999999;
+  margin-top: 15px;
+}
+footer .logos_with_btns .btns_for_foot {
+  margin-top: 40px;
+}
+footer .logos_with_btns .btns_for_foot button {
+  width: 183px;
+  height: 60px;
+  border: 1.62px solid;
+  border-image: linear-gradient(to right, #999999 100%, #141414 100%) 1;
+  padding-left: 20px;
+  border-radius: 60px;
+  backdrop-filter: blur(22.6499996185px);
+  box-shadow: -2.62px -1.62px 4.24px 0px rgba(250, 250, 250, 0.2196078431) inset;
+  border: none;
+  font-size: 16px;
+  color: #ADA785;
+}
+footer .logos_with_btns .btns_for_foot .plus_another_box {
+  width: 620px;
+  border-bottom: 1px solid #262626;
+  margin-top: 30px;
+}
+footer .logos_with_btns .btns_for_foot p {
+  font-size: 16px;
+  color: #E5E5E5;
+  margin-top: 45px;
+}
+footer .about_all {
+  width: 620px;
+  height: 450px;
+}
+footer .about_all h3 {
+  font-size: 16px;
+  color: #E5E5E5;
+}
+footer .about_all ul li {
+  margin-top: 10px;
+}
+footer .about_all ul li a {
+  font-size: 16px;
+  color: #999999;
+}
+footer .about_all button {
+  width: 180px;
+  height: 64px;
+  border: 1.62px solid;
+  border-image: linear-gradient(to right, #999999 100%, #141414 100%) 1;
+  padding-left: 20px;
+  border-radius: 60px;
+  backdrop-filter: blur(22.6499996185px);
+  box-shadow: -2.62px -1.62px 4.24px 0px rgba(250, 250, 250, 0.2196078431) inset;
+  border: none;
+  font-size: 12px;
+  color: #ADA785;
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=blog.css.map */
